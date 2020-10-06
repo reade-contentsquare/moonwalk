@@ -59,3 +59,4 @@ buck-out/
 
 GoogleService-Info.plist
 coverage
+ios/Pods
