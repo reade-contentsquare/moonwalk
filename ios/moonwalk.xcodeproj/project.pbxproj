@@ -18,11 +18,10 @@
 		2DCD954D1E0B4F2C00145EB5 /* moonwalkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* moonwalkTests.m */; };
 		5995DF238BBF43559DA04BA6 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCFEB1A3A1284447833A750A /* Quicksand-Medium.ttf */; };
 		64A2F1B2416A49E2A2DDC90F /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0F69DCA96B649309A8C83E4 /* Quicksand-Light.ttf */; };
+		667E8214252CF47E00C6F909 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 667E8213252CF47D00C6F909 /* GoogleService-Info.plist */; };
 		67972AC594724E01BFAA4A4B /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9ED045F782AE487C87436AC8 /* Quicksand-SemiBold.ttf */; };
 		6CE12614E387450A94D9D6EE /* libPods-moonwalk-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3555F528CF8CBA0E6DE789FB /* libPods-moonwalk-tvOSTests.a */; };
 		87FAA3ED61884E6496A7BAA4 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 038ADF0CC6D54B91AA7EB6CA /* Quicksand-Regular.ttf */; };
-		9C4BB37B242C0F07006DA12A /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 008F07F21AC5B25A0029DE68 /* main.jsbundle */; };
-		9C697327240C518500E12C34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C697326240C518400E12C34 /* GoogleService-Info.plist */; };
 		9C97849624E9BA5500062AFC /* logo_darkblue.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C97848724E9BA5000062AFC /* logo_darkblue.png */; };
 		9C97849724E9BA5500062AFC /* logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C97848824E9BA5100062AFC /* logo_black.png */; };
 		9C97849824E9BA5500062AFC /* logo_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C97848924E9BA5100062AFC /* logo_white@3x.png */; };
@@ -82,11 +81,11 @@
 		2D02E4901E0B4A5D006451C7 /* moonwalk-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "moonwalk-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3555F528CF8CBA0E6DE789FB /* libPods-moonwalk-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalk-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		554FF0BF5C86F4F90CBA6227 /* libPods-moonwalk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		667E8213252CF47D00C6F909 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		69A5FF80023FE2D3D0D99508 /* Pods-moonwalk-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-moonwalk-tvOS/Pods-moonwalk-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		70F1D56C625C1DAD02FC1AAA /* Pods-moonwalkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalkTests.debug.xcconfig"; path = "Target Support Files/Pods-moonwalkTests/Pods-moonwalkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DC88DBDB1BA7FA91BBB132B /* Pods-moonwalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moonwalk.debug.xcconfig"; path = "Target Support Files/Pods-moonwalk/Pods-moonwalk.debug.xcconfig"; sourceTree = "<group>"; };
 		931F241EEFA54D361B361815 /* libPods-moonwalkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-moonwalkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C697326240C518400E12C34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9C97848724E9BA5000062AFC /* logo_darkblue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_darkblue.png; sourceTree = "<group>"; };
 		9C97848824E9BA5100062AFC /* logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_black.png; sourceTree = "<group>"; };
 		9C97848924E9BA5100062AFC /* logo_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_white@3x.png"; sourceTree = "<group>"; };
@@ -172,7 +171,7 @@
 			children = (
 				9CB7EBEE242D690E00F322D4 /* assets */,
 				9CC646C6242BCA930087DAC0 /* App Icons */,
-				9C697326240C518400E12C34 /* GoogleService-Info.plist */,
+				667E8213252CF47D00C6F909 /* GoogleService-Info.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -376,7 +375,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 6WD2C784QG;
+						DevelopmentTeam = 5RY4WV5W2B;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -424,7 +423,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C4BB37B242C0F07006DA12A /* main.jsbundle in Resources */,
 				9C9784A324E9BA5500062AFC /* logo_milkyway@3x.png in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				9C9784A224E9BA5500062AFC /* logo_lightblue.png in Resources */,
@@ -432,7 +430,6 @@
 				9C9784A424E9BA5500062AFC /* logo_white.png in Resources */,
 				9C97849D24E9BA5500062AFC /* logo_white@2x.png in Resources */,
 				9C9784A024E9BA5500062AFC /* logo_darkblue@3x.png in Resources */,
-				9C697327240C518500E12C34 /* GoogleService-Info.plist in Resources */,
 				9C97849924E9BA5500062AFC /* logo_milkyway.png in Resources */,
 				9C97849C24E9BA5500062AFC /* logo_darkblue@2x.png in Resources */,
 				9CB7EBEF242D690E00F322D4 /* assets in Resources */,
@@ -443,6 +440,7 @@
 				64A2F1B2416A49E2A2DDC90F /* Quicksand-Light.ttf in Resources */,
 				9C97849F24E9BA5500062AFC /* logo_milkyway@2x.png in Resources */,
 				5995DF238BBF43559DA04BA6 /* Quicksand-Medium.ttf in Resources */,
+				667E8214252CF47E00C6F909 /* GoogleService-Info.plist in Resources */,
 				87FAA3ED61884E6496A7BAA4 /* Quicksand-Regular.ttf in Resources */,
 				67972AC594724E01BFAA4A4B /* Quicksand-SemiBold.ttf in Resources */,
 				9C97849E24E9BA5500062AFC /* logo_black@2x.png in Resources */,
@@ -745,7 +743,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 223;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 6WD2C784QG;
+				DEVELOPMENT_TEAM = 5RY4WV5W2B;
 				INFOPLIST_FILE = moonwalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.2;
@@ -754,7 +752,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maximenory.moonwalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contentsquare.presales.ecommerce;
 				PRODUCT_NAME = Moonwalk;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -770,7 +768,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 223;
-				DEVELOPMENT_TEAM = 6WD2C784QG;
+				DEVELOPMENT_TEAM = 5RY4WV5W2B;
 				INFOPLIST_FILE = moonwalk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 2.2;
@@ -779,7 +777,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.maximenory.moonwalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.contentsquare.presales.ecommerce;
 				PRODUCT_NAME = Moonwalk;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -928,6 +926,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -991,6 +990,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
